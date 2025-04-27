@@ -1,318 +1,318 @@
 [
   {
-    "id": "FISH0001",
-    "nome": "Yariman",
-    "valorBase": 16.67,
-    "descricao": "Yariman é um peixe de água doce do Lago Carumã, com peso entre 0.5kg e 8kg. Prefere iscas como Larvas, Minhocas e Insetos, e costuma ser encontrado em profundidades próximas a 3.2 metros.",
-    "raridade": "comum",
-    "chanceGlobal": 0.05,
-    "iscasPreferidas": [
-      "Larvas",
-      "Minhocas",
-      "Insetos"
+    id FISH0001,
+    nome Yariman,
+    valorBase 16.67,
+    descricao Yariman é um peixe de água doce do Lago Carumã, com peso entre 0.5kg e 8kg. Prefere iscas como Larvas, Minhocas e Insetos, e costuma ser encontrado em profundidades próximas a 3.2 metros.,
+    raridade comum,
+    chanceGlobal 0.05,
+    iscasPreferidas [
+      Larvas,
+      Minhocas,
+      Insetos
     ],
-    "atividadePorHorario": [
+    atividadePorHorario [
       {
-        "inicio": "00:00",
-        "fim": "04:19",
-        "pontos": 35
+        inicio 0000,
+        fim 0419,
+        pontos 35
       },
       {
-        "inicio": "04:20",
-        "fim": "08:59",
-        "pontos": 89
+        inicio 0420,
+        fim 0859,
+        pontos 89
       },
       {
-        "inicio": "09:00",
-        "fim": "16:19",
-        "pontos": 40
+        inicio 0900,
+        fim 1619,
+        pontos 40
       },
       {
-        "inicio": "16:20",
-        "fim": "23:59",
-        "pontos": 92
+        inicio 1620,
+        fim 2359,
+        pontos 92
       }
     ],
-    "atividadePorTemperatura": {
-      "rangeIdeal": {
-        "min": 20,
-        "max": 26
+    atividadePorTemperatura {
+      rangeIdeal {
+        min 20,
+        max 26
       },
-      "penalidadePor5Graus": 20
+      penalidadePor5Graus 20
     },
-    "faixasDePeso": [
+    faixasDePeso [
       {
-        "categoria": "pequeno",
-        "pesoMin": 0.5,
-        "pesoMax": 1.499,
-        "chance": 0.1,
-        "variacaoValor": {
-          "min": 0,
-          "max": 0
+        categoria pequeno,
+        pesoMin 0.5,
+        pesoMax 1.499,
+        chance 0.1,
+        variacaoValor {
+          min 0,
+          max 0
         }
       },
       {
-        "categoria": "comum",
-        "pesoMin": 1.5,
-        "pesoMax": 7.999,
-        "chance": 0.7,
-        "variacaoValor": {
-          "min": 0.01,
-          "max": 0.249
+        categoria comum,
+        pesoMin 1.5,
+        pesoMax 7.999,
+        chance 0.7,
+        variacaoValor {
+          min 0.01,
+          max 0.249
         }
       },
       {
-        "categoria": "medio",
-        "pesoMin": 8.0,
-        "pesoMax": 16.999,
-        "chance": 0.17,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria medio,
+        pesoMin 8.0,
+        pesoMax 16.999,
+        chance 0.17,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "grande",
-        "pesoMin": 17.0,
-        "pesoMax": 24.0,
-        "chance": 0.02899,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria grande,
+        pesoMin 17.0,
+        pesoMax 24.0,
+        chance 0.02899,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "trofeu_gold",
-        "pesoMin": 25.0,
-        "pesoMax": 34.999,
-        "chance": 0.001,
-        "variacaoValor": {
-          "min": 0.5,
-          "max": 2.0
+        categoria trofeu_gold,
+        pesoMin 25.0,
+        pesoMax 34.999,
+        chance 0.001,
+        variacaoValor {
+          min 0.5,
+          max 2.0
         }
       },
       {
-        "categoria": "trofeu_diamante",
-        "pesoMin": 35.0,
-        "pesoMax": 42.0,
-        "chance": 1e-05,
-        "variacaoValor": {
-          "min": 3.0,
-          "max": 6.0
+        categoria trofeu_diamante,
+        pesoMin 35.0,
+        pesoMax 42.0,
+        chance 1e-05,
+        variacaoValor {
+          min 3.0,
+          max 6.0
         }
       }
     ],
-    "profundidadeIdeal": 3.2,
-    "penalidadePorMetroDeDiferenca": 15
+    profundidadeIdeal 3.2,
+    penalidadePorMetroDeDiferenca 15
   },
   {
-    "id": "FISH0002",
-    "nome": "Piracema Branca",
-    "valorBase": 33.33,
-    "descricao": "Piracema Branca é um peixe de água doce do Lago Carumã, com peso entre 1kg e 7kg. Prefere iscas como Minhocas e Massas, e costuma ser encontrado em profundidades próximas a 4.8 metros.",
-    "raridade": "raro",
-    "chanceGlobal": 0.01,
-    "iscasPreferidas": [
-      "Minhocas",
-      "Massas"
+    id FISH0002,
+    nome Piracema Branca,
+    valorBase 33.33,
+    descricao Piracema Branca é um peixe de água doce do Lago Carumã, com peso entre 1kg e 7kg. Prefere iscas como Minhocas e Massas, e costuma ser encontrado em profundidades próximas a 4.8 metros.,
+    raridade raro,
+    chanceGlobal 0.01,
+    iscasPreferidas [
+      Minhocas,
+      Massas
     ],
-    "atividadePorHorario": [
+    atividadePorHorario [
       {
-        "inicio": "00:00",
-        "fim": "04:19",
-        "pontos": 35
+        inicio 0000,
+        fim 0419,
+        pontos 35
       },
       {
-        "inicio": "04:20",
-        "fim": "08:59",
-        "pontos": 89
+        inicio 0420,
+        fim 0859,
+        pontos 89
       },
       {
-        "inicio": "09:00",
-        "fim": "16:19",
-        "pontos": 40
+        inicio 0900,
+        fim 1619,
+        pontos 40
       },
       {
-        "inicio": "16:20",
-        "fim": "23:59",
-        "pontos": 92
+        inicio 1620,
+        fim 2359,
+        pontos 92
       }
     ],
-    "atividadePorTemperatura": {
-      "rangeIdeal": {
-        "min": 20,
-        "max": 26
+    atividadePorTemperatura {
+      rangeIdeal {
+        min 20,
+        max 26
       },
-      "penalidadePor5Graus": 20
+      penalidadePor5Graus 20
     },
-    "faixasDePeso": [
+    faixasDePeso [
       {
-        "categoria": "pequeno",
-        "pesoMin": 0.5,
-        "pesoMax": 1.499,
-        "chance": 0.1,
-        "variacaoValor": {
-          "min": 0,
-          "max": 0
+        categoria pequeno,
+        pesoMin 0.5,
+        pesoMax 1.499,
+        chance 0.1,
+        variacaoValor {
+          min 0,
+          max 0
         }
       },
       {
-        "categoria": "comum",
-        "pesoMin": 1.5,
-        "pesoMax": 7.999,
-        "chance": 0.7,
-        "variacaoValor": {
-          "min": 0.01,
-          "max": 0.249
+        categoria comum,
+        pesoMin 1.5,
+        pesoMax 7.999,
+        chance 0.7,
+        variacaoValor {
+          min 0.01,
+          max 0.249
         }
       },
       {
-        "categoria": "medio",
-        "pesoMin": 8.0,
-        "pesoMax": 16.999,
-        "chance": 0.17,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria medio,
+        pesoMin 8.0,
+        pesoMax 16.999,
+        chance 0.17,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "grande",
-        "pesoMin": 17.0,
-        "pesoMax": 24.0,
-        "chance": 0.02899,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria grande,
+        pesoMin 17.0,
+        pesoMax 24.0,
+        chance 0.02899,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "trofeu_gold",
-        "pesoMin": 25.0,
-        "pesoMax": 34.999,
-        "chance": 0.001,
-        "variacaoValor": {
-          "min": 0.5,
-          "max": 2.0
+        categoria trofeu_gold,
+        pesoMin 25.0,
+        pesoMax 34.999,
+        chance 0.001,
+        variacaoValor {
+          min 0.5,
+          max 2.0
         }
       },
       {
-        "categoria": "trofeu_diamante",
-        "pesoMin": 35.0,
-        "pesoMax": 42.0,
-        "chance": 1e-05,
-        "variacaoValor": {
-          "min": 3.0,
-          "max": 6.0
+        categoria trofeu_diamante,
+        pesoMin 35.0,
+        pesoMax 42.0,
+        chance 1e-05,
+        variacaoValor {
+          min 3.0,
+          max 6.0
         }
       }
     ],
-    "profundidadeIdeal": 4.8,
-    "penalidadePorMetroDeDiferenca": 15
+    profundidadeIdeal 4.8,
+    penalidadePorMetroDeDiferenca 15
   },
   {
-    "id": "FISH0003",
-    "nome": "Catiguá Listrado",
-    "valorBase": 66.67,
-    "descricao": "Catiguá Listrado é um peixe de água doce do Lago Carumã, com peso entre 2kg e 10kg. Prefere iscas como Insetos e Natural, e costuma ser encontrado em profundidades próximas a 7.8 metros.",
-    "raridade": "comum",
-    "chanceGlobal": 0.05,
-    "iscasPreferidas": [
-      "Insetos",
-      "Natural"
+    id FISH0003,
+    nome Catiguá Listrado,
+    valorBase 66.67,
+    descricao Catiguá Listrado é um peixe de água doce do Lago Carumã, com peso entre 2kg e 10kg. Prefere iscas como Insetos e Natural, e costuma ser encontrado em profundidades próximas a 7.8 metros.,
+    raridade comum,
+    chanceGlobal 0.05,
+    iscasPreferidas [
+      Insetos,
+      Natural
     ],
-    "atividadePorHorario": [
+    atividadePorHorario [
       {
-        "inicio": "00:00",
-        "fim": "04:19",
-        "pontos": 35
+        inicio 0000,
+        fim 0419,
+        pontos 35
       },
       {
-        "inicio": "04:20",
-        "fim": "08:59",
-        "pontos": 89
+        inicio 0420,
+        fim 0859,
+        pontos 89
       },
       {
-        "inicio": "09:00",
-        "fim": "16:19",
-        "pontos": 40
+        inicio 0900,
+        fim 1619,
+        pontos 40
       },
       {
-        "inicio": "16:20",
-        "fim": "23:59",
-        "pontos": 92
+        inicio 1620,
+        fim 2359,
+        pontos 92
       }
     ],
-    "atividadePorTemperatura": {
-      "rangeIdeal": {
-        "min": 20,
-        "max": 26
+    atividadePorTemperatura {
+      rangeIdeal {
+        min 20,
+        max 26
       },
-      "penalidadePor5Graus": 20
+      penalidadePor5Graus 20
     },
-    "faixasDePeso": [
+    faixasDePeso [
       {
-        "categoria": "pequeno",
-        "pesoMin": 0.5,
-        "pesoMax": 1.499,
-        "chance": 0.1,
-        "variacaoValor": {
-          "min": 0,
-          "max": 0
+        categoria pequeno,
+        pesoMin 0.5,
+        pesoMax 1.499,
+        chance 0.1,
+        variacaoValor {
+          min 0,
+          max 0
         }
       },
       {
-        "categoria": "comum",
-        "pesoMin": 1.5,
-        "pesoMax": 7.999,
-        "chance": 0.7,
-        "variacaoValor": {
-          "min": 0.01,
-          "max": 0.249
+        categoria comum,
+        pesoMin 1.5,
+        pesoMax 7.999,
+        chance 0.7,
+        variacaoValor {
+          min 0.01,
+          max 0.249
         }
       },
       {
-        "categoria": "medio",
-        "pesoMin": 8.0,
-        "pesoMax": 16.999,
-        "chance": 0.17,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria medio,
+        pesoMin 8.0,
+        pesoMax 16.999,
+        chance 0.17,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "grande",
-        "pesoMin": 17.0,
-        "pesoMax": 24.0,
-        "chance": 0.02899,
-        "variacaoValor": {
-          "min": 0.25,
-          "max": 0.5
+        categoria grande,
+        pesoMin 17.0,
+        pesoMax 24.0,
+        chance 0.02899,
+        variacaoValor {
+          min 0.25,
+          max 0.5
         }
       },
       {
-        "categoria": "trofeu_gold",
-        "pesoMin": 25.0,
-        "pesoMax": 34.999,
-        "chance": 0.001,
-        "variacaoValor": {
-          "min": 0.5,
-          "max": 2.0
+        categoria trofeu_gold,
+        pesoMin 25.0,
+        pesoMax 34.999,
+        chance 0.001,
+        variacaoValor {
+          min 0.5,
+          max 2.0
         }
       },
       {
-        "categoria": "trofeu_diamante",
-        "pesoMin": 35.0,
-        "pesoMax": 42.0,
-        "chance": 1e-05,
-        "variacaoValor": {
-          "min": 3.0,
-          "max": 6.0
+        categoria trofeu_diamante,
+        pesoMin 35.0,
+        pesoMax 42.0,
+        chance 1e-05,
+        variacaoValor {
+          min 3.0,
+          max 6.0
         }
       }
     ],
-    "profundidadeIdeal": 7.8,
-    "penalidadePorMetroDeDiferenca": 15
-  },
-  
+    profundidadeIdeal 7.8,
+    penalidadePorMetroDeDiferenca 15
+  }
+]
