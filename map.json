@@ -1,0 +1,47 @@
+{
+  "id": "WATERBODY0001",
+  "nome": "Lago Carumã",
+  "descricao": "Situado em meio às matas e campos do Mato Grosso do Sul no Brasil, o Lago Carumã é conhecido por suas águas calmas e margens densamente vegetadas. Com profundidade média de 2 metros, abriga poços naturais que chegam a 8 metros, ideais para espécies maiores e raras. Suas águas variam entre 12°C e 35°C, mas a temperatura mais comum gira em torno de 21°C a 25°C. É habitat de mais de 30 espécies, como Yariman, Tararé Vermelho e Tucurimbá, que respondem bem a iscas naturais como minhocas, larvas e insetos. A diversidade ecológica e os climas variáveis tornam o lago um ponto-chave para pescadores em busca de desafios e recompensas valiosas.",
+  "localidade": "Mato Grosso do Sul - Brasil",
+  "temperatura": {
+    "minima": 12,
+    "maxima": 35
+  },
+  "clima": [
+    {
+      "range": {
+        "min": 21,
+        "max": 25
+      },
+      "chance": 0.9
+    },
+    {
+      "range": {
+        "min": 12,
+        "max": 20
+      },
+      "chance": 0.05
+    },
+    {
+      "range": {
+        "min": 25,
+        "max": 35
+      },
+      "chance": 0.05
+    }
+  ],
+  "umidade": {
+    "tempoSeco": 0.95,
+    "tempoChuva": 0.05,
+    "bonusPescaChuva": 0.1
+  },
+  "profundidade": {
+    "base": 2,
+    "pocosNaturais": [
+      4,
+      6,
+      8,
+      15
+    ]
+  }
+}

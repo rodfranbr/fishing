@@ -1,0 +1,41 @@
+{
+  "Minhocas": [
+    "Minhoca Comum",
+    "Minhoca Vermelha",
+    "Minhoca da Terra",
+    "Sanguessuga"
+  ],
+  "Larvas": [
+    "Larva de Mosca",
+    "Verme",
+    "Larva de Besouro"
+  ],
+  "Insetos": [
+    "Mosca",
+    "Gafanhoto",
+    "Libelula",
+    "Besouro",
+    "Grilo"
+  ],
+  "Massas": [
+    "Massa de Aveia",
+    "Massa de Ovo",
+    "Massa de Ervilha",
+    "Massa de Alho",
+    "Massa de Mel",
+    "Massa de Queijo"
+  ],
+  "Natural": [
+    "Milho",
+    "Ervilha",
+    "Trigo",
+    "Batata",
+    "Pão",
+    "Alga"
+  ],
+  "Iscas Viva": [
+    "Peixinho",
+    "Camarão",
+    "Sapo"
+  ]
+}
