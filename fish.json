@@ -314,5 +314,2840 @@
     ],
     "profundidadeIdeal": 7.8,
     "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0004",
+    "nome": "Catiguá Negro",
+    "valorBase": 100.0,
+    "descricao": "Catiguá Negro é um peixe de água doce do Lago Carumã, com peso entre 3kg e 12kg. Prefere iscas como Insetos e Massas, e costuma ser encontrado em profundidades próximas a 10.0 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Insetos",
+      "Massas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 10.0,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0005",
+    "nome": "Bagui",
+    "valorBase": 23.33,
+    "descricao": "Bagui é um peixe de água doce do Lago Carumã, com peso entre 0.7kg e 3kg. Prefere iscas como Larvas e Minhocas, e costuma ser encontrado em profundidades próximas a 3.1 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Larvas",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 3.1,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0006",
+    "nome": "Paranau",
+    "valorBase": 166.67,
+    "descricao": "Paranau é um peixe de água doce do Lago Carumã, com peso entre 5kg e 22kg. Prefere iscas como Natural e Iscas viva, e costuma ser encontrado em profundidades próximas a 7.8 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Natural",
+      "Iscas viva"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 7.8,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0007",
+    "nome": "Ubirama",
+    "valorBase": 40.0,
+    "descricao": "Ubirama é um peixe de água doce do Lago Carumã, com peso entre 1.2kg e 6kg. Prefere iscas como Minhocas e Massas, e costuma ser encontrado em profundidades próximas a 5.7 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Minhocas",
+      "Massas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.7,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0008",
+    "nome": "Aranau",
+    "valorBase": 13.33,
+    "descricao": "Aranau é um peixe de água doce do Lago Carumã, com peso entre 0.4kg e 1kg. Prefere iscas como Larvas e Insetos, e costuma ser encontrado em profundidades próximas a 1.3 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Larvas",
+      "Insetos"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 1.3,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0009",
+    "nome": "Tararé",
+    "valorBase": 50.0,
+    "descricao": "Tararé é um peixe de água doce do Lago Carumã, com peso entre 1.5kg e 8kg. Prefere iscas como Massas e Natural, e costuma ser encontrado em profundidades próximas a 5.8 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Massas",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.8,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0010",
+    "nome": "Tararé Vermelho",
+    "valorBase": 66.67,
+    "descricao": "Tararé Vermelho é um peixe de água doce do Lago Carumã, com peso entre 2kg e 11kg. Prefere iscas como Insetos e Iscas viva, e costuma ser encontrado em profundidades próximas a 8.9 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Insetos",
+      "Iscas viva"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 8.9,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0011",
+    "nome": "Curumim-Pintado",
+    "valorBase": 10.0,
+    "descricao": "Curumim-Pintado é um peixe de água doce do Lago Carumã, com peso entre 0.3kg e 0.8kg. Prefere iscas como Larvas e Minhocas, e costuma ser encontrado em profundidades próximas a 1.5 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Larvas",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 1.5,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0012",
+    "nome": "Aratimbó Azul",
+    "valorBase": 133.33,
+    "descricao": "Aratimbó Azul é um peixe de água doce do Lago Carumã, com peso entre 4kg e 15kg. Prefere iscas como Minhocas e Iscas viva, e costuma ser encontrado em profundidades próximas a 7.8 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Minhocas",
+      "Iscas viva"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 7.8,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0013",
+    "nome": "Iguapira",
+    "valorBase": 60.0,
+    "descricao": "Iguapira é um peixe de água doce do Lago Carumã, com peso entre 1.8kg e 9kg. Prefere iscas como Insetos e Massas, e costuma ser encontrado em profundidades próximas a 8.6 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Insetos",
+      "Massas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 8.6,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0014",
+    "nome": "Paxiguá",
+    "valorBase": 20.0,
+    "descricao": "Paxiguá é um peixe de água doce do Lago Carumã, com peso entre 0.6kg e 3kg. Prefere iscas como Larvas e Natural, e costuma ser encontrado em profundidades próximas a 5.3 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Larvas",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.3,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0015",
+    "nome": "Tibiriçu Dourado",
+    "valorBase": 233.33,
+    "descricao": "Tibiriçu Dourado é um peixe de água doce do Lago Carumã, com peso entre 7kg e 30kg. Prefere iscas como Iscas viva e Natural, e costuma ser encontrado em profundidades próximas a 6.6 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Iscas viva",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 6.6,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0016",
+    "nome": "Nharupé",
+    "valorBase": 83.33,
+    "descricao": "Nharupé é um peixe de água doce do Lago Carumã, com peso entre 2.5kg e 8kg. Prefere iscas como Massas e Natural, e costuma ser encontrado em profundidades próximas a 5.2 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Massas",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.2,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0017",
+    "nome": "Mutaraçu Listrado",
+    "valorBase": 26.67,
+    "descricao": "Mutaraçu Listrado é um peixe de água doce do Lago Carumã, com peso entre 0.8kg e 4kg. Prefere iscas como Insetos e Minhocas, e costuma ser encontrado em profundidades próximas a 5.7 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Insetos",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.7,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0018",
+    "nome": "Jaurimi",
+    "valorBase": 33.33,
+    "descricao": "Jaurimi é um peixe de água doce do Lago Carumã, com peso entre 1kg e 6kg. Prefere iscas como Massas e Larvas, e costuma ser encontrado em profundidades próximas a 5.7 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Massas",
+      "Larvas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.7,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0019",
+    "nome": "Caiporã Cinzento",
+    "valorBase": 333.33,
+    "descricao": "Caiporã Cinzento é um peixe de água doce do Lago Carumã, com peso entre 10kg e 40kg. Prefere iscas como Iscas viva e Natural, e costuma ser encontrado em profundidades próximas a 6.2 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Iscas viva",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 6.2,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0020",
+    "nome": "Tucurimbá",
+    "valorBase": 6.67,
+    "descricao": "Tucurimbá é um peixe de água doce do Lago Carumã, com peso entre 0.2kg e 0.9kg. Prefere iscas como Larvas e Insetos, e costuma ser encontrado em profundidades próximas a 1.7 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Larvas",
+      "Insetos"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 1.7,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0021",
+    "nome": "Pirarã Farpado",
+    "valorBase": 266.67,
+    "descricao": "Pirarã Farpado é um peixe de água doce do Lago Carumã, com peso entre 8kg e 22kg. Prefere iscas como Iscas viva e Massas, e costuma ser encontrado em profundidades próximas a 8.1 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Iscas viva",
+      "Massas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 8.1,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0022",
+    "nome": "Maraguá Pintado",
+    "valorBase": 100.0,
+    "descricao": "Maraguá Pintado é um peixe de água doce do Lago Carumã, com peso entre 3kg e 15kg. Prefere iscas como Natural e Minhocas, e costuma ser encontrado em profundidades próximas a 7.3 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Natural",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 7.3,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0023",
+    "nome": "Uanambé",
+    "valorBase": 33.33,
+    "descricao": "Uanambé é um peixe de água doce do Lago Carumã, com peso entre 1kg e 4kg. Prefere iscas como Insetos e Larvas, e costuma ser encontrado em profundidades próximas a 5.3 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Insetos",
+      "Larvas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.3,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0024",
+    "nome": "Tuxiá de Cauda Verde",
+    "valorBase": 20.0,
+    "descricao": "Tuxiá de Cauda Verde é um peixe de água doce do Lago Carumã, com peso entre 0.6kg e 1.2kg. Prefere iscas como Larvas e Massas, e costuma ser encontrado em profundidades próximas a 3.1 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Larvas",
+      "Massas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 3.1,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0025",
+    "nome": "Guarupé Listrado",
+    "valorBase": 66.67,
+    "descricao": "Guarupé Listrado é um peixe de água doce do Lago Carumã, com peso entre 2kg e 7kg. Prefere iscas como Minhocas e Natural, e costuma ser encontrado em profundidades próximas a 3.0 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Minhocas",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 3.0,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0026",
+    "nome": "Aritumã",
+    "valorBase": 366.67,
+    "descricao": "Aritumã é um peixe de água doce do Lago Carumã, com peso entre 11kg e 32kg. Prefere iscas como Iscas viva e Insetos, e costuma ser encontrado em profundidades próximas a 7.5 metros.",
+    "raridade": "extremamente_raro",
+    "chanceGlobal": 0.001,
+    "iscasPreferidas": [
+      "Iscas viva",
+      "Insetos"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 7.5,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0027",
+    "nome": "Camuriá Cinzento",
+    "valorBase": 16.67,
+    "descricao": "Camuriá Cinzento é um peixe de água doce do Lago Carumã, com peso entre 0.5kg e 2kg. Prefere iscas como Larvas e Minhocas, e costuma ser encontrado em profundidades próximas a 5.5 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Larvas",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 5.5,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0028",
+    "nome": "Xinguatá Bravo",
+    "valorBase": 200.0,
+    "descricao": "Xinguatá Bravo é um peixe de água doce do Lago Carumã, com peso entre 6kg e 18kg. Prefere iscas como Massas e Natural, e costuma ser encontrado em profundidades próximas a 7.1 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Massas",
+      "Natural"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 7.1,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0029",
+    "nome": "Iramuri do Lago",
+    "valorBase": 43.33,
+    "descricao": "Iramuri do Lago é um peixe de água doce do Lago Carumã, com peso entre 1.3kg e 5kg. Prefere iscas como Natural e Minhocas, e costuma ser encontrado em profundidades próximas a 4.0 metros.",
+    "raridade": "comum",
+    "chanceGlobal": 0.05,
+    "iscasPreferidas": [
+      "Natural",
+      "Minhocas"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 4.0,
+    "penalidadePorMetroDeDiferenca": 15
+  },
+  {
+    "id": "FISH0030",
+    "nome": "Potiara",
+    "valorBase": 8.33,
+    "descricao": "Potiara é um peixe de água doce do Lago Carumã, com peso entre 0.25kg e 0.9kg. Prefere iscas como Larvas e Insetos, e costuma ser encontrado em profundidades próximas a 2.5 metros.",
+    "raridade": "raro",
+    "chanceGlobal": 0.01,
+    "iscasPreferidas": [
+      "Larvas",
+      "Insetos"
+    ],
+    "atividadePorHorario": [
+      {
+        "inicio": "0000",
+        "fim": "0419",
+        "pontos": 35
+      },
+      {
+        "inicio": "0420",
+        "fim": "0859",
+        "pontos": 89
+      },
+      {
+        "inicio": "0900",
+        "fim": "1619",
+        "pontos": 40
+      },
+      {
+        "inicio": "1620",
+        "fim": "2359",
+        "pontos": 92
+      }
+    ],
+    "atividadePorTemperatura": {
+      "rangeIdeal": {
+        "min": 20,
+        "max": 26
+      },
+      "penalidadePor5Graus": 20
+    },
+    "faixasDePeso": [
+      {
+        "categoria": "pequeno",
+        "pesoMin": 0.5,
+        "pesoMax": 1.499,
+        "chance": 0.1,
+        "variacaoValor": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "categoria": "comum",
+        "pesoMin": 1.5,
+        "pesoMax": 7.999,
+        "chance": 0.7,
+        "variacaoValor": {
+          "min": 0.01,
+          "max": 0.249
+        }
+      },
+      {
+        "categoria": "medio",
+        "pesoMin": 8.0,
+        "pesoMax": 16.999,
+        "chance": 0.17,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "grande",
+        "pesoMin": 17.0,
+        "pesoMax": 24.0,
+        "chance": 0.02899,
+        "variacaoValor": {
+          "min": 0.25,
+          "max": 0.5
+        }
+      },
+      {
+        "categoria": "trofeu_gold",
+        "pesoMin": 25.0,
+        "pesoMax": 34.999,
+        "chance": 0.001,
+        "variacaoValor": {
+          "min": 0.5,
+          "max": 2.0
+        }
+      },
+      {
+        "categoria": "trofeu_diamante",
+        "pesoMin": 35.0,
+        "pesoMax": 42.0,
+        "chance": 0.00001,
+        "variacaoValor": {
+          "min": 3.0,
+          "max": 6.0
+        }
+      }
+    ],
+    "profundidadeIdeal": 2.5,
+    "penalidadePorMetroDeDiferenca": 15
   }
 ]
