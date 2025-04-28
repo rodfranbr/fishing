@@ -5,180 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROD FISHINGSIM</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        body {
-            background-color: #121212;
-            color: #f0f0f0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        #game-container {
-            width: 100%;
-            max-width: 1920px;
-            margin: 0 auto;
-            position: relative;
-        }
-        #scene-container {
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-            position: relative;
-            overflow: hidden;
-        }
-        #scene-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        #controls {
-            position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 20px;
-        }
-        .game-button {
-            width: 100px;
-            height: 100px;
-            cursor: pointer;
-            transition: transform 0.2s;
-            border: none;
-            background-color: transparent;
-        }
-        .game-button:hover {
-            transform: scale(1.1);
-        }
-        #log-container {
-            width: 100%;
-            max-width: 1920px;
-            padding: 15px;
-            background-color: rgba(0, 0, 0, 0.7);
-            border-radius: 5px;
-            margin-top: 10px;
-            height: 150px;
-            overflow-y: auto;
-        }
-        #log {
-            color: #ffffff;
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        #bait-selector {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.85);
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            max-height: 80vh;
-            overflow-y: auto;
-            display: none;
-            z-index: 100;
-        }
-        .bait-category {
-            margin-bottom: 15px;
-        }
-        .bait-category h3 {
-            color: #ffcc00;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #ffcc00;
-            padding-bottom: 5px;
-        }
-        .bait-items {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 10px;
-        }
-        .bait-item {
-            padding: 10px;
-            background-color: #333;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .bait-item:hover {
-            background-color: #555;
-        }
-        .selected-bait {
-            background-color: #ffcc00;
-            color: #000;
-        }
-        #selected-bait-display {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 10px;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        #fish-caught-modal {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.85);
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            display: none;
-            z-index: 100;
-        }
-        #fish-caught-modal h2 {
-            color: #ffcc00;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-        #fish-details {
-            margin-bottom: 20px;
-        }
-        #close-fish-modal {
-            display: block;
-            margin: 0 auto;
-            padding: 10px 20px;
-            background-color: #ffcc00;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        #close-fish-modal:hover {
-            background-color: #ffd633;
-        }
-        .loading-bar-container {
-            width: 100%;
-            height: 20px;
-            background-color: #333;
-            border-radius: 10px;
-            overflow: hidden;
-            margin-top: 10px;
-        }
-        .loading-bar {
-            height: 100%;
-            width: 0;
-            background-color: #ffcc00;
-            transition: width 0.5s;
-        }
-        #bell-sound {
-            display: none;
-        }
+        * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;}
+        body {background-color: #121212; color: #f0f0f0; display: flex; flex-direction: column; align-items: center;}
+        #game-container {width: 100%; max-width: 1920px; margin: 0 auto; position: relative;}
+        #scene-container {width: 100%; height: 0; padding-bottom: 56.25%; position: relative; overflow: hidden;}
+        #scene-image {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;}
+        #controls {position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 20px;}
+        .game-button {width: 100px; height: 100px; cursor: pointer; transition: transform 0.2s; border: none; background-color: transparent;}
+        .game-button:hover {transform: scale(1.1);}
+        #log-container {width: 100%; max-width: 1920px; padding: 15px; background-color: rgba(0,0,0,0.7); border-radius: 5px; margin-top: 10px; height: 150px; overflow-y: auto;}
+        #log {color: #fff; font-size: 16px; line-height: 1.5;}
+        .modal {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background-color: rgba(0,0,0,0.85); padding: 20px; border-radius: 10px; width: 90%; max-width: 800px; display: none; z-index: 100;}
+        #bait-selector {max-height: 80vh; overflow-y: auto;}
+        .bait-category {margin-bottom: 15px;}
+        .bait-category h3 {color: #fc0; margin-bottom: 10px; border-bottom: 1px solid #fc0; padding-bottom: 5px;}
+        .bait-items {display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;}
+        .bait-item {padding: 10px; background-color: #333; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;}
+        .bait-item:hover {background-color: #555;}
+        .selected-bait {background-color: #fc0; color: #000;}
+        #selected-bait-display {position: absolute; top: 20px; left: 20px; background-color: rgba(0,0,0,0.7); padding: 10px; border-radius: 5px; display: flex; align-items: center; gap: 10px;}
+        #fish-caught-modal h2 {color: #fc0; margin-bottom: 15px; text-align: center;}
+        #fish-details {margin-bottom: 20px;}
+        .modal-button {display: block; margin: 0 auto; padding: 10px 20px; background-color: #fc0; color: #000; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;}
+        .modal-button:hover {background-color: #ffd633;}
+        .loading-bar-container {width: 100%; height: 20px; background-color: #333; border-radius: 10px; overflow: hidden; margin-top: 10px;}
+        .loading-bar {height: 100%; width: 0; background-color: #fc0; transition: width 0.5s;}
     </style>
 </head>
 <body>
@@ -211,25 +62,23 @@
         <div id="log">Bem-vindo ao ROD FISHINGSIM! Selecione uma isca e comece a pescar.</div>
     </div>
     
-    <div id="bait-selector">
-        <h2 style="text-align: center; margin-bottom: 20px; color: #ffcc00;">Selecione uma Isca</h2>
+    <div id="bait-selector" class="modal">
+        <h2 style="text-align: center; margin-bottom: 20px; color: #fc0;">Selecione uma Isca</h2>
         <div id="bait-categories"></div>
-        <button id="close-bait-selector" style="display: block; margin: 20px auto 0; padding: 10px 20px; background-color: #ffcc00; color: #000; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">Fechar</button>
+        <button id="close-bait-selector" class="modal-button">Fechar</button>
     </div>
     
-    <div id="fish-caught-modal">
+    <div id="fish-caught-modal" class="modal">
         <h2>Peixe Pescado!</h2>
         <div id="fish-details"></div>
-        <button id="close-fish-modal">Fechar</button>
+        <button id="close-fish-modal" class="modal-button">Fechar</button>
     </div>
     
-    <audio id="bell-sound" src="https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/bell.mp3" preload="auto"></audio>
+    <audio id="bell-sound" src="https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/bell.mp3" preload="auto" style="display:none;"></audio>
     
     <script>
-        // Game state variables
-        let gameState = {
-            currentScene: 1,
-            currentSceneBlock: 1,
+        // Game state and DOM elements
+        const gameState = {
             isFishing: false,
             isWaitingForBite: false,
             isFishBiting: false,
@@ -240,25 +89,33 @@
             baitData: null,
             fishData: null,
             mapData: null,
+            currentSceneBlock: 1,
             animationInterval: null,
-            bellInterval: null,
             chanceCheckInterval: null
         };
 
-        // DOM Elements
-        const sceneImage = document.getElementById('scene-image');
-        const fishButton = document.getElementById('fish-button');
-        const hookButton = document.getElementById('hook-button');
-        const baitButton = document.getElementById('bait-button');
-        const baitSelector = document.getElementById('bait-selector');
-        const baitCategories = document.getElementById('bait-categories');
-        const closeBaitSelector = document.getElementById('close-bait-selector');
-        const currentBaitDisplay = document.getElementById('current-bait');
-        const logContainer = document.getElementById('log');
-        const fishCaughtModal = document.getElementById('fish-caught-modal');
-        const fishDetails = document.getElementById('fish-details');
-        const closeFishModal = document.getElementById('close-fish-modal');
-        const bellSound = document.getElementById('bell-sound');
+        const elements = {
+            sceneImage: document.getElementById('scene-image'),
+            fishButton: document.getElementById('fish-button'),
+            hookButton: document.getElementById('hook-button'),
+            baitButton: document.getElementById('bait-button'),
+            baitSelector: document.getElementById('bait-selector'),
+            baitCategories: document.getElementById('bait-categories'),
+            currentBait: document.getElementById('current-bait'),
+            log: document.getElementById('log'),
+            fishModal: document.getElementById('fish-caught-modal'),
+            fishDetails: document.getElementById('fish-details'),
+            bellSound: document.getElementById('bell-sound')
+        };
+
+        // Helper functions
+        const log = message => {
+            elements.log.innerHTML += `<p>${message}</p>`;
+            elements.log.scrollTop = elements.log.scrollHeight;
+        };
+
+        const showModal = modal => modal.style.display = 'block';
+        const hideModal = modal => modal.style.display = 'none';
 
         // Load game data
         async function loadGameData() {
@@ -281,17 +138,65 @@
             }
         }
 
-        // Populate bait selector
-        function populateBaitSelector() {
-            baitCategories.innerHTML = '';
+        // Scene handling
+        function playSceneBlock(blockNumber, callback) {
+            clearInterval(gameState.animationInterval);
             
-            for (const [category, baits] of Object.entries(gameState.baitData)) {
+            const sceneConfigs = {
+                1: { scene: 1, duration: 9999 }, // IDLE
+                2: { frames: [2, 12], duration: 1000 }, // CASTING LINE
+                3: { loop: [13, 14], duration: 1000 }, // WAITING FOR BITE
+                4: { loop: [16, 17, 18, 19], duration: 300 }, // FISH BITING
+                5: { loop: Array.from({ length: 17 }, (_, i) => i + 20), duration: 1000 }, // FIGHTING FISH
+                6: { frames: [37, 41], duration: 2000 }, // REELING IN FISH
+                7: { scene: 42, duration: 9999 } // FISH CAUGHT DISPLAY
+            };
+            
+            const config = sceneConfigs[blockNumber];
+            gameState.currentSceneBlock = blockNumber;
+            
+            if (config.loop) {
+                let currentLoopIndex = 0;
+                gameState.animationInterval = setInterval(() => {
+                    const imgNumber = config.loop[currentLoopIndex].toString().padStart(4, '0');
+                    elements.sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
+                    currentLoopIndex = (currentLoopIndex + 1) % config.loop.length;
+                }, config.duration);
+            } else if (config.frames) {
+                // Sequential frames animation
+                let currentFrame = config.frames[0];
+                const maxFrame = config.frames[1];
+                
+                function playNextFrame() {
+                    if (currentFrame > maxFrame) {
+                        if (callback) callback();
+                        return;
+                    }
+                    
+                    const imgNumber = currentFrame.toString().padStart(4, '0');
+                    elements.sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
+                    currentFrame++;
+                    
+                    setTimeout(playNextFrame, config.duration);
+                }
+                
+                playNextFrame();
+            } else if (config.scene) {
+                // Single scene
+                const imgNumber = config.scene.toString().padStart(4, '0');
+                elements.sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
+            }
+        }
+
+        // Bait selector
+        function populateBaitSelector() {
+            elements.baitCategories.innerHTML = '';
+            
+            Object.entries(gameState.baitData).forEach(([category, baits]) => {
                 const categoryDiv = document.createElement('div');
                 categoryDiv.className = 'bait-category';
                 
-                const categoryTitle = document.createElement('h3');
-                categoryTitle.textContent = category;
-                categoryDiv.appendChild(categoryTitle);
+                categoryDiv.innerHTML = `<h3>${category}</h3>`;
                 
                 const baitsGrid = document.createElement('div');
                 baitsGrid.className = 'bait-items';
@@ -300,150 +205,39 @@
                     const baitItem = document.createElement('div');
                     baitItem.className = 'bait-item';
                     baitItem.textContent = bait;
-                    baitItem.addEventListener('click', () => {
-                        selectBait(category, bait);
-                    });
+                    baitItem.addEventListener('click', () => selectBait(category, bait));
                     baitsGrid.appendChild(baitItem);
                 });
                 
                 categoryDiv.appendChild(baitsGrid);
-                baitCategories.appendChild(categoryDiv);
-            }
+                elements.baitCategories.appendChild(categoryDiv);
+            });
         }
 
-        // Select a bait
         function selectBait(category, bait) {
             gameState.selectedBaitCategory = category;
             gameState.selectedBait = bait;
-            currentBaitDisplay.textContent = `${bait} (${category})`;
+            elements.currentBait.textContent = `${bait} (${category})`;
             
-            // Update selected bait visual
             document.querySelectorAll('.bait-item').forEach(item => {
-                item.classList.remove('selected-bait');
-                if (item.textContent === bait) {
-                    item.classList.add('selected-bait');
-                }
+                item.classList.toggle('selected-bait', item.textContent === bait);
             });
             
             log(`Isca selecionada: ${bait} (${category})`);
-            baitSelector.style.display = 'none';
+            hideModal(elements.baitSelector);
         }
 
-        // Log messages to the log container
-        function log(message) {
-            logContainer.innerHTML += `<p>${message}</p>`;
-            logContainer.scrollTop = logContainer.scrollHeight;
-        }
-
-        // Animation functions
-        function playSceneBlock(blockNumber, callback) {
-            clearInterval(gameState.animationInterval);
-            
-            let sceneNumber;
-            let duration;
-            let isLooping = false;
-            let loopImages = [];
-            let currentLoopIndex = 0;
-            
-            switch(blockNumber) {
-                case 1: // IDLE
-                    sceneNumber = 1;
-                    duration = 9999; // Indefinite until player action
-                    break;
-                case 2: // CASTING LINE
-                    sceneNumber = 2;
-                    duration = 1000;
-                    break;
-                case 3: // WAITING FOR BITE
-                    isLooping = true;
-                    loopImages = [13, 14];
-                    duration = 1000;
-                    break;
-                case 4: // FISH BITING
-                    isLooping = true;
-                    loopImages = [16, 17, 18, 19];
-                    duration = 300;
-                    break;
-                case 5: // FIGHTING FISH
-                    isLooping = true;
-                    loopImages = Array.from({ length: 17 }, (_, i) => i + 20);
-                    duration = 1000;
-                    break;
-                case 6: // REELING IN FISH
-                    sceneNumber = 37;
-                    duration = 2000;
-                    break;
-                case 7: // FISH CAUGHT DISPLAY
-                    sceneNumber = 42;
-                    duration = 9999; // Indefinite until player action
-                    break;
-            }
-            
-            gameState.currentSceneBlock = blockNumber;
-            
-            if (isLooping) {
-                gameState.animationInterval = setInterval(() => {
-                    const imgNumber = loopImages[currentLoopIndex].toString().padStart(4, '0');
-                    sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
-                    currentLoopIndex = (currentLoopIndex + 1) % loopImages.length;
-                }, duration);
-            } else {
-                if (blockNumber === 2) { // CASTING LINE - Special sequence
-                    let currentFrame = 2;
-                    const maxFrame = 12;
-                    
-                    function playNextFrame() {
-                        if (currentFrame > maxFrame) {
-                            if (callback) callback();
-                            return;
-                        }
-                        
-                        const imgNumber = currentFrame.toString().padStart(4, '0');
-                        sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
-                        currentFrame++;
-                        
-                        setTimeout(playNextFrame, duration);
-                    }
-                    
-                    playNextFrame();
-                } else if (blockNumber === 6) { // REELING IN FISH - Special sequence
-                    let currentFrame = 37;
-                    const maxFrame = 41;
-                    
-                    function playNextFrame() {
-                        if (currentFrame > maxFrame) {
-                            if (callback) callback();
-                            return;
-                        }
-                        
-                        const imgNumber = currentFrame.toString().padStart(4, '0');
-                        sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.jpg`;
-                        currentFrame++;
-                        
-                        setTimeout(playNextFrame, duration);
-                    }
-                    
-                    playNextFrame();
-                } else {
-                    const imgNumber = sceneNumber.toString().padStart(4, '0');
-                    const imgExt = blockNumber === 7 ? 'jpg' : 'jpg';
-                    sceneImage.src = `https://raw.githubusercontent.com/rodfranbr/fishing/refs/heads/main/scene${imgNumber}.${imgExt}`;
-                }
-            }
-        }
-
-        // Start fishing
+        // Fishing mechanics
         function startFishing() {
             if (!gameState.selectedBait) {
-                log("Você precisa selecionar uma isca primeiro!");
-                return;
+                return log("Você precisa selecionar uma isca primeiro!");
             }
             
             if (gameState.isFishing) return;
             
             gameState.isFishing = true;
-            fishButton.disabled = true;
-            baitButton.disabled = true;
+            elements.fishButton.disabled = true;
+            elements.baitButton.disabled = true;
             
             log("Lançando linha...");
             
@@ -452,52 +246,35 @@
                 gameState.isWaitingForBite = true;
                 log("Linha lançada. Aguardando mordida...");
                 
-                // Start waiting for bite animation
                 playSceneBlock(3);
-                
-                // Start checking for fish bite
                 gameState.chanceCheckInterval = setInterval(checkForFishBite, 5000);
             });
         }
 
-        // Check for fish bite
         function checkForFishBite() {
             if (!gameState.isWaitingForBite) return;
             
-            // 10% chance of a bite
             if (Math.random() <= 0.1) {
                 const possibleFish = gameState.fishData.filter(fish => 
                     fish.iscasPreferidas.includes(gameState.selectedBaitCategory)
                 );
                 
                 if (possibleFish.length === 0) {
-                    log("Nenhum peixe parece estar interessado nessa isca por aqui...");
-                    return;
+                    return log("Nenhum peixe parece estar interessado nessa isca por aqui...");
                 }
                 
-                // Select a random fish from possible matches
                 const fish = possibleFish[Math.floor(Math.random() * possibleFish.length)];
-                
-                // Determine weight category based on chances
                 const weightCategory = selectWeightCategory(fish);
                 
                 if (!weightCategory) {
-                    log("Algo fisgou sua isca, mas escapou rapidamente!");
-                    return;
+                    return log("Algo fisgou sua isca, mas escapou rapidamente!");
                 }
                 
-                // Calculate actual weight within the category range
-                const minWeight = weightCategory.pesoMin;
-                const maxWeight = weightCategory.pesoMax;
-                const weight = minWeight + Math.random() * (maxWeight - minWeight);
-                
-                // Calculate value based on base value and variation
-                const minVariation = weightCategory.variacaoValor.min;
-                const maxVariation = weightCategory.variacaoValor.max;
-                const valueMultiplier = 1 + minVariation + Math.random() * (maxVariation - minVariation);
+                const weight = weightCategory.pesoMin + Math.random() * (weightCategory.pesoMax - weightCategory.pesoMin);
+                const valueMultiplier = 1 + weightCategory.variacaoValor.min + 
+                    Math.random() * (weightCategory.variacaoValor.max - weightCategory.variacaoValor.min);
                 const value = fish.valorBase * valueMultiplier;
                 
-                // Store the fish data
                 gameState.currentFish = {
                     ...fish,
                     peso: weight.toFixed(2),
@@ -505,12 +282,10 @@
                     valor: value.toFixed(2)
                 };
                 
-                // Fish is biting!
                 fishBiting();
             }
         }
 
-        // Select weight category based on chances
         function selectWeightCategory(fish) {
             const categories = fish.faixasDePeso;
             const random = Math.random();
@@ -523,84 +298,67 @@
                 }
             }
             
-            return categories[0]; // Fallback to smallest category
+            return categories[0]; // Fallback
         }
 
-        // Fish biting animation and sound
         function fishBiting() {
             clearInterval(gameState.chanceCheckInterval);
             gameState.isWaitingForBite = false;
             gameState.isFishBiting = true;
             
-            // Show hook button
-            hookButton.style.display = 'block';
+            elements.hookButton.style.display = 'block';
             
-            // Play bell sound
-            bellSound.loop = true;
-            bellSound.play().catch(e => console.log("Error playing sound:", e));
+            try {
+                elements.bellSound.loop = true;
+                elements.bellSound.play();
+            } catch (e) {
+                console.log("Sound error:", e);
+            }
             
-            // Play fish biting animation
             playSceneBlock(4);
-            
             log("Um peixe mordeu a isca! Clique em FISGAR rápido!");
             
-            // If player doesn't hook in time, fish escapes
             setTimeout(() => {
-                if (gameState.isFishBiting) {
-                    fishEscaped();
-                }
+                if (gameState.isFishBiting) fishEscaped();
             }, 5000);
         }
 
-        // Hook the fish
         function hookFish() {
             if (!gameState.isFishBiting) return;
             
             gameState.isFishBiting = false;
             gameState.isReeling = true;
             
-            // Stop bell sound
-            bellSound.pause();
-            bellSound.currentTime = 0;
-            
-            // Hide hook button
-            hookButton.style.display = 'none';
+            elements.bellSound.pause();
+            elements.bellSound.currentTime = 0;
+            elements.hookButton.style.display = 'none';
             
             log("Peixe fisgado! Lutando para recolher...");
             
-            // Calculate fight duration based on fish weight and category
-            const baseTime = 10; // seconds
-            const weightMultiplier = parseFloat(gameState.currentFish.peso) / 5;
-            let categoryMultiplier = 1;
+            // Calculate fight duration
+            const fish = gameState.currentFish;
+            const categoryMultipliers = {
+                'pequeno': 1, 'comum': 1.5, 'medio': 2, 'grande': 3,
+                'trofeu_gold': 4, 'trofeu_diamante': 6
+            };
             
-            switch(gameState.currentFish.categoria) {
-                case 'pequeno': categoryMultiplier = 1; break;
-                case 'comum': categoryMultiplier = 1.5; break;
-                case 'medio': categoryMultiplier = 2; break;
-                case 'grande': categoryMultiplier = 3; break;
-                case 'trofeu_gold': categoryMultiplier = 4; break;
-                case 'trofeu_diamante': categoryMultiplier = 6; break;
-            }
+            const weightMultiplier = parseFloat(fish.peso) / 5;
+            const categoryMultiplier = categoryMultipliers[fish.categoria] || 1;
+            const fightDuration = Math.min(Math.ceil(10 * weightMultiplier * categoryMultiplier), 20);
             
-            // For gameplay purposes, we'll cap this at 20 seconds max
-            const fightDuration = Math.min(Math.ceil(baseTime * weightMultiplier * categoryMultiplier), 20);
-            
-            // Show fighting animation
             playSceneBlock(5);
             
-            // Create a loading bar for the struggle
-            const loadingBarContainer = document.createElement('div');
-            loadingBarContainer.className = 'loading-bar-container';
+            // Create loading bar
+            const loadingContainer = document.createElement('div');
+            loadingContainer.className = 'loading-bar-container';
+            loadingContainer.innerHTML = '<div class="loading-bar"></div>';
+            elements.log.appendChild(loadingContainer);
             
-            const loadingBar = document.createElement('div');
-            loadingBar.className = 'loading-bar';
-            loadingBarContainer.appendChild(loadingBar);
-            
-            logContainer.appendChild(loadingBarContainer);
-            
+            const loadingBar = loadingContainer.querySelector('.loading-bar');
             let progress = 0;
+            
             const progressInterval = setInterval(() => {
-                progress += 100 / (fightDuration * 2); // Update twice per second
+                progress += 100 / (fightDuration * 2);
                 loadingBar.style.width = `${progress}%`;
                 
                 if (progress >= 100) {
@@ -612,49 +370,35 @@
             log(`Lutando com o peixe... (${fightDuration} segundos)`);
         }
 
-        // Fish escaped
         function fishEscaped() {
-            // Stop bell sound and biting animation
-            bellSound.pause();
-            bellSound.currentTime = 0;
+            elements.bellSound.pause();
+            elements.bellSound.currentTime = 0;
             
-            clearInterval(gameState.bellInterval);
             gameState.isFishBiting = false;
-            
-            // Hide hook button
-            hookButton.style.display = 'none';
+            elements.hookButton.style.display = 'none';
             
             log("O peixe escapou! Tente novamente.");
-            
-            // Reset to idle state
             resetGameState();
         }
 
-        // Fish caught
         function fishCaught() {
             gameState.isReeling = false;
-            
             log("Peixe recolhido com sucesso!");
             
-            // Play reeling animation
             playSceneBlock(6, () => {
-                // Show fish caught scene
                 playSceneBlock(7);
-                
-                // Show fish caught modal
                 displayFishCaught();
             });
         }
 
-        // Display fish caught modal
         function displayFishCaught() {
             const fish = gameState.currentFish;
+            const categoryName = fish.categoria.replace('_', ' ')
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ');
             
-            // Format category name for display
-            let categoryName = fish.categoria.replace('_', ' ');
-            categoryName = categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
-            
-            fishDetails.innerHTML = `
+            elements.fishDetails.innerHTML = `
                 <p><strong>Nome:</strong> ${fish.nome}</p>
                 <p><strong>Peso:</strong> ${fish.peso} kg</p>
                 <p><strong>Categoria:</strong> ${categoryName}</p>
@@ -663,10 +407,9 @@
                 <p><strong>Descrição:</strong> ${fish.descricao}</p>
             `;
             
-            fishCaughtModal.style.display = 'block';
+            showModal(elements.fishModal);
         }
 
-        // Reset game state
         function resetGameState() {
             clearInterval(gameState.animationInterval);
             clearInterval(gameState.chanceCheckInterval);
@@ -677,22 +420,20 @@
             gameState.isReeling = false;
             gameState.currentFish = null;
             
-            // Enable buttons
-            fishButton.disabled = false;
-            baitButton.disabled = false;
-            hookButton.style.display = 'none';
+            elements.fishButton.disabled = false;
+            elements.baitButton.disabled = false;
+            elements.hookButton.style.display = 'none';
             
-            // Show idle scene
             playSceneBlock(1);
         }
 
         // Event listeners
-        fishButton.addEventListener('click', startFishing);
-        hookButton.addEventListener('click', hookFish);
-        baitButton.addEventListener('click', () => baitSelector.style.display = 'block');
-        closeBaitSelector.addEventListener('click', () => baitSelector.style.display = 'none');
-        closeFishModal.addEventListener('click', () => {
-            fishCaughtModal.style.display = 'none';
+        elements.fishButton.addEventListener('click', startFishing);
+        elements.hookButton.addEventListener('click', hookFish);
+        elements.baitButton.addEventListener('click', () => showModal(elements.baitSelector));
+        document.getElementById('close-bait-selector').addEventListener('click', () => hideModal(elements.baitSelector));
+        document.getElementById('close-fish-modal').addEventListener('click', () => {
+            hideModal(elements.fishModal);
             resetGameState();
         });
 
